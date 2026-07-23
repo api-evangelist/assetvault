@@ -1,7 +1,26 @@
 aid: assetvault
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/assetvault.png
 name: AssetVault
-description: AssetVault is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: AssetVault is a London-based consumer fintech platform that helps individuals
+  and families catalogue, protect, and grow their valuable assets in one secure digital
+  vault. It spans physical items (homes, vehicles, jewelry), digital assets (passwords,
+  investment portfolios), and financial holdings, layering on digital estate planning
+  (eWill), insurance claims support, analytics, and concierge services. The platform
+  emphasizes bank-grade security with encrypted transmission, two-factor authentication,
+  and biometric access, and is available as an App Store, Google Play, and web app.
+  Added to the API Evangelist network as a Techstars portfolio company; no public API
+  surface is published yet.
 url: https://raw.githubusercontent.com/api-evangelist/assetvault/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fintech
+- Wealth Management
+- Estate Planning
+- Asset Management
+- Insurance
+- Personal Finance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,12 @@ maintainers:
 common:
 - type: Website
   url: https://asset-vault.com/
+- type: Blog
+  url: https://asset-vault.com/blog
+- type: DomainSecurity
+  url: security/assetvault-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
